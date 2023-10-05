@@ -1,0 +1,81 @@
+body, ol {
+    margin: 1px;
+    padding: 40;
+    background-color: ivory;
+}
+
+#nav {
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    background-color: ivory;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#nav li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#nav a:hover {
+    color: darkgrey;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.background-container {
+    background-image: url(/Users/michalrunge/Desktop/website_runge/marble-background.jpeg); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover; /* Scale the image to cover the entire container */
+    background-position: center; /* Center the image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: #000000; /* Text color on top of the background */
+    text-align: center; /* Center-align the text */
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.selfie {
+    width: 200px;
+    height: 200px;
+}
